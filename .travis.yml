@@ -18,7 +18,7 @@ addons:
 
 script:
   # And then execute SonarCloud analysis which will run its own code analysis, and also reuse the linters' results
-  - sonar-scanner/bin/sonar-scanner -Dsonar.organization=rahmaboukhris -Dsonar.projectKey=testmanual -Dsonar.projectName=testmanual -Dsonar.c.file.suffixes=- -Dsonar.cpp.file.suffixes=- -Dsonar.objc.file.suffixes=-
+  - sonar-scanner/bin/sonar-scanner -Dsonar.organization=rahmaboukhris -Dsonar.projectKey=testmanual -Dsonar.projectName=testmanual -Dsonar.c.file.suffixes=- -Dsonar.cpp.file.suffixes=- 
 
 cache:
   directories:
